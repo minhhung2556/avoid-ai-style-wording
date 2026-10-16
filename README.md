@@ -1,5 +1,7 @@
 # avoid-ai-style-wording
 
+[![skills.sh](https://skills.sh/b/minhhung2556/avoid-ai-style-wording)](https://skills.sh/minhhung2556/avoid-ai-style-wording)
+
 Agent skill that keeps model-written prose plain (no dash pauses, no stock AI phrasing) and keeps UI copy short, actionable, and audience-appropriate.
 
 ## Install
