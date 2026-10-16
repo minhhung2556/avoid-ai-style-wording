@@ -291,6 +291,31 @@ Rollout covered 2019–2021.
 
 ---
 
+### P11 Release note (scope beyond chat or PR)
+
+**Prompt**
+
+Write two sentences for a product release note: version 2.4 adds scheduled exports. Do not use marketing filler.
+
+**Fail**
+
+```
+In today's fast-paced world, we're thrilled to unveil seamless scheduled exports — let's dive in!
+```
+
+**Pass**
+
+```
+Version 2.4 adds scheduled exports. Set a cadence in Project settings and downloads run automatically.
+```
+
+**Check**
+
+- Plain prose rules apply to release notes and similar product text.
+- No banned pause characters or stock phrases from the skill list.
+
+---
+
 ## UI copy
 
 For UI cases, the prompt asks for a specific string (toast, label, error, etc.). Score only that string unless **Check** says otherwise.

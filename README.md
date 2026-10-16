@@ -1,5 +1,7 @@
 # avoid-ai-style-wording
 
+[![skills.sh](https://skills.sh/b/minhhung2556/avoid-ai-style-wording)](https://skills.sh/minhhung2556/avoid-ai-style-wording)
+
 Agent skill that keeps model-written prose plain (no dash pauses, no stock AI phrasing) and keeps UI copy short, actionable, and audience-appropriate.
 
 ## Install
@@ -16,7 +18,7 @@ gh skill install minhhung2556/avoid-ai-style-wording
 
 ## What it covers
 
-- **Prose:** chat, comments, commits, docs, and PR text
+- **Prose:** any text you write, edit, or review (chat, comments, commits, docs, issues, email, release notes, PR text, messages, and similar)
 - **UI copy:** labels, toasts, validation, empty states, and consent strings (with separate rules for end users, staff, and legal/consent)
 
 Rules live in [skills/avoid-ai-style-wording/SKILL.md](skills/avoid-ai-style-wording/SKILL.md). [examples.md](skills/avoid-ai-style-wording/examples.md) has scoring fixtures.

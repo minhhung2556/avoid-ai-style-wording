@@ -3,8 +3,9 @@ name: avoid-ai-style-wording
 description: >-
   Enforces plain agent prose without dash pauses or stock AI phrasing, and
   concise user-facing UI copy without internals or marketing tone. Use when
-  writing chat replies, comments, commits, docs, PR text, or UI strings
-  (labels, toasts, validation, empty states, consent).
+  writing, editing, or reviewing any text (for example chat, comments,
+  commits, docs, issues, email, release notes, PR text, messages, or UI
+  strings).
 license: MIT
 ---
 
@@ -12,7 +13,7 @@ license: MIT
 
 ## Plain prose
 
-Always on for prose you write. **Prose surfaces:** chat, comments, commits, docs, and PR text. If the user asked for a terse reply, stay terse, and still avoid dash pauses and copied AI phrasing from context.
+Always on for any prose you write, edit, or review. If the user asked for a terse reply, stay terse, and still avoid dash pauses and copied AI phrasing from context.
 
 ### Banned as clause connectors or pauses
 
@@ -26,7 +27,7 @@ Do not emit these in prose you write:
 
 ### Rewrite, do not swap
 
-When a sentence would use a dash, recast it: split into two sentences, or use a comma, colon, or parentheses. Do not replace a dash with another dash-like character. Before finishing any prose surface, scan for the banned pauses above and rewrite any hit. Rewrite U+2013 only when it joins words or clauses; leave numeric and date ranges (for example `2020–2024`) unchanged.
+When a sentence would use a dash, recast it: split into two sentences, or use a comma, colon, or parentheses. Do not replace a dash with another dash-like character. Before finishing any prose you deliver, scan for the banned pauses above and rewrite any hit. Rewrite U+2013 only when it joins words or clauses; leave numeric and date ranges (for example `2020–2024`) unchanged.
 
 ### Do not mirror context
 
